@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79df6a99-2687-47a5-a64b-7873b8df888a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Compression_Analysis/PSNR.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Compression_Analysis/compressed_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Compression_Analysis/orignal_image.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas/Pandas_missingValue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/Pandas_missingValue.py" afterDir="false" />
-    </list>
+    <list default="true" id="79df6a99-2687-47a5-a64b-7873b8df888a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geekcomputers/Compression_Analysis/PSNR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="e#166#184#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="522">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -90,29 +81,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="train_project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="train_project" type="462c0819:PsiDirectoryNode" />
-              <item name="geekcomputers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="train_project" type="462c0819:PsiDirectoryNode" />
-              <item name="geekcomputers" type="462c0819:PsiDirectoryNode" />
-              <item name="Compression_Analysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -291,7 +261,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="2753" y="0" width="854" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22181372" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -546,16 +515,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Compression_Analysis/PSNR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#166#184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -563,6 +522,13 @@
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Compression_Analysis/PSNR.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
