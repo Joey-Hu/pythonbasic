@@ -57,9 +57,9 @@ merge	        True	    True	    True
 df2 = pd.read_excel('./grades.xlsx')
 print(df2)
 df3 = df2.rename(mapper={'Unnamed: 0':'index'},axis=1)
-df = df3.set_index(keys='index')
+df4 = df3.set_index(keys='index')
 print()
-print(df)
+print(df4)
 '''
        Python  Math   En
 index                   
@@ -134,17 +134,157 @@ index
 # column_random = np.random.randint(0,3,size=15)
 # np.savetxt('./column_random.txt',column_random)
 
-nd_index = np.loadtxt('index_random.txt')
-print(nd_index)
-# print(type(nd_index))
+#
+# nd_index = np.loadtxt('index_random.txt')
+# print(nd_index)
+# # print(type(nd_index))
+#
+# nd_column = np.loadtxt('column_random.txt')
+# print(nd_column)
+#
+# list_index = nd_index.tolist()
+# list_column = nd_column.tolist()
+#
+# for i in range(15):
+#     df[list_index[i],list_column[i]] = None
+# print(df.info())
+# print(df)
 
-nd_column = np.loadtxt('column_random.txt')
-print(nd_column)
+for i in range(15):
+    index = np.random.randint(0,150,size=1)[0]
+    column = np.random.randint(0,3,size=1)[0]
+    df4.iloc[index,column] = None
+print(df4.info())
 
-list_index = nd_index.tolist()
-list_column = nd_column.tolist()
-for index,column in list_index,list_column:
-    df.iloc[index,column] = None
-print(df.describe())
+# df4.to_excel('./grades.xlsx')
+df5 = pd.read_excel('./grades.xlsx')
+print(df5)
+df6 = df5.rename(mapper={'Unnamed: 0':'index'},axis=1)
+df = df6.set_index(keys='index')
+print(df.info())
+
+print('***********')
+# 返回空值数据的索引
+cond = df.isnull().any(axis=1)
+print(df[cond])
+'''
+       Python   Math     En
+index                      
+23      143.0   63.0    NaN
+27       23.0    NaN  110.0
+36        7.0    NaN   72.0
+42        NaN  101.0    1.0
+44       42.0   40.0    NaN
+47        NaN  121.0   16.0
+53      118.0    NaN   86.0
+55       12.0    NaN  125.0
+59       59.0    NaN   68.0
+65       25.0    NaN   83.0
+87      112.0    NaN   75.0
+88        NaN   76.0   18.0
+92       88.0    NaN   34.0
+103     143.0   14.0    NaN
+149     132.0    NaN   78.0
+'''
+print('***********')
+# 非空数据
+cond = df.notnull().all(axis= 1)
+print(df[cond])
+# 或者直接用dropna()
+print('***********')
+print(df.dropna())  # 过滤函数 Remove missing values.
+# 对应填充函数 df.fillna() 使用中位数，平均值，众数填充    向前填充，向后南充
+
+
+# 删除DataFrame数据
+# 删除列数据
+print('***********')
+print(df.drop(labels=['En'],axis=1))        # df.drop()默认删除行
+'''
+       Python   Math
+index               
+0        56.0   68.0
+1       119.0   71.0
+2        17.0   26.0
+3        99.0   66.0
+4        96.0  100.0
+5        88.0  100.0
+6        63.0   46.0
+7       143.0   34.0
+8       119.0   68.0
+9        74.0   87.0
+10      136.0  118.0
+11       54.0   86.0
+12        1.0   82.0
+13        8.0   12.0
+14       42.0   28.0
+15      121.0   68.0
+16      146.0   14.0
+17       34.0   43.0
+18      113.0   80.0
+19      143.0  135.0
+20       35.0   73.0
+21       58.0  132.0
+22      119.0   18.0
+23      143.0   63.0
+24       32.0   91.0
+25       23.0  109.0
+26       98.0   88.0
+27       23.0    NaN
+28        8.0   30.0
+29       12.0   83.0
+...       ...    ...
+120      52.0    6.0
+121      22.0  149.0
+122      16.0    9.0
+123      64.0   40.0
+124      78.0   52.0
+125      39.0   45.0
+126     116.0    3.0
+127      49.0   42.0
+128     149.0   82.0
+129      55.0   13.0
+130     146.0   41.0
+131     149.0   33.0
+132     132.0  113.0
+133     104.0    7.0
+134      86.0   96.0
+135      45.0   95.0
+136     133.0  142.0
+137      93.0   12.0
+138      63.0   41.0
+139       8.0   34.0
+140     111.0   37.0
+141     118.0   94.0
+142      51.0  125.0
+143      17.0  136.0
+144     105.0   93.0
+145     148.0  102.0
+146      88.0  106.0
+147       8.0   72.0
+148      27.0  147.0
+149     132.0    NaN
+
+[150 rows x 2 columns]
+'''
+
+# 删除行数据(存在空值的元组)
+
+cond = df.isnull().any(axis = 1)
+
+# 删除小于60的元组
+# cond = (df<60).any(axis=1)
+
+# 删除平均分小于60的元组
+# cond = df.mean(axis = 1)<60
+
+# 条件的合并
+# cond1 = df.mean(axis=1)<60
+# cond2 = df.mean(axis=1)>100
+# cond = cond1|cond2
+index = df[cond].index
+print(df.drop(labels=index))
+
+
 
 
