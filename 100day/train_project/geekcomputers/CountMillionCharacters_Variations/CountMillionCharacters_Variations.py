@@ -19,7 +19,7 @@ except NameError:
 def count_chas(filename):
     count = {}
 
-    with open(filename) as info:    # inputFile Replaced with filename
+    with open(filename,encoding='UTF-8') as info:    # inputFile Replaced with filename
         readfile = info.read()
         for character in readfile.upper():  # 为什么要大写？？  把大写去掉之后也可以，能区分大小写字符
             count[character] = count.get(character, 0) + 1

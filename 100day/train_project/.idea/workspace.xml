@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79df6a99-2687-47a5-a64b-7873b8df888a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pandas/Group_aggregation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pandas/hierarchical_index.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/CountMillionCharacters_Variations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/huhao.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/huhao.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pandas/Cascade_merge.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/UNDO_Google_Image_Downloader/create_dir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/UNDO_Google_Image_Downloader/image_grapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/koch curve/koch curve.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas/Pandas_missingValue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/Pandas_missingValue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas/grades.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/grades.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/CountMillionCharacters_Variations.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/CountMillionCharacters_Variations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/huhao.txt" beforeDir="false" afterPath="$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/huhao.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +23,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/CountMillionCharacters_Variations.py">
+        <entry file="file://$PROJECT_DIR$/Pandas/Cascade_merge.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="297">
+              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+              <folding>
+                <element signature="e#182#200#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python35-32/Lib/site-packages/numpy/core/multiarray.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="148" column="42" lean-forward="true" selection-start-line="148" selection-start-column="42" selection-end-line="148" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -47,6 +59,7 @@
       <find>flags</find>
       <find>e</find>
       <find />
+      <find>left</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,14 +89,17 @@
         <option value="$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations.py" />
         <option value="$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/huhao.txt" />
         <option value="$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/CountMillionCharacters_Variations.py" />
+        <option value="$PROJECT_DIR$/geekcomputers/Google_Image_Downloader/create_dir.py" />
+        <option value="$PROJECT_DIR$/geekcomputers/Google_Image_Downloader/image_grapper.py" />
+        <option value="$PROJECT_DIR$/geekcomputers/koch curve/koch curve.py" />
+        <option value="$PROJECT_DIR$/Pandas/Cascade_merge.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1036" />
+    <option name="x" value="995" />
+    <option name="width" value="934" />
+    <option name="height" value="1089" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -91,7 +107,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,19 +122,13 @@
             <path>
               <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="train_project" type="462c0819:PsiDirectoryNode" />
-              <item name="geekcomputers" type="462c0819:PsiDirectoryNode" />
-              <item name="Compression_Analysis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="train_project" type="462c0819:PsiDirectoryNode" />
-              <item name="geekcomputers" type="462c0819:PsiDirectoryNode" />
-              <item name="CountMillionCharacters_Variations" type="462c0819:PsiDirectoryNode" />
+              <item name="Pandas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -148,7 +157,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.CountMillionCharacters_Variations (1)">
+  <component name="RunManager" selected="Python.Cascade_merge">
+    <configuration name="Cascade_merge" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="train_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/Cascade_merge.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="CountMillionCharacters_Variations (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="train_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,7 +221,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Group_aggregation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="image_grapper" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="train_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,11 +229,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geekcomputers/Google_Image_Downloader" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/Group_aggregation.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geekcomputers/Google_Image_Downloader/image_grapper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,7 +242,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Pandas_missingValue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="koch curve" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="train_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,32 +250,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geekcomputers/koch curve" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/Pandas_missingValue.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hierarchical_index" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="train_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/hierarchical_index.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geekcomputers/koch curve/koch curve.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Cascade_merge" />
+        <item itemvalue="Python.koch curve" />
+        <item itemvalue="Python.image_grapper" />
         <item itemvalue="Python.CountMillionCharacters_Variations (1)" />
         <item itemvalue="Python.CountMillionCharacters_Variations" />
-        <item itemvalue="Python.Group_aggregation" />
-        <item itemvalue="Python.hierarchical_index" />
-        <item itemvalue="Python.Pandas_missingValue" />
       </list>
     </recent_temporary>
   </component>
@@ -299,16 +308,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1696" height="1036" extended-state="6" />
+    <frame x="63" y="-7" width="1480" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13389626" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13365652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32815966" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31152993" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40354767" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.308311" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40348527" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -322,30 +331,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NUMPY/numpy_随机函数.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Python35-32/Lib/site-packages/numpy/core/multiarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-716">
-          <caret line="135" column="4" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35-32/Lib/site-packages/numpy/lib/shape_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="799" column="52" lean-forward="true" selection-start-line="783" selection-start-column="4" selection-end-line="799" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35-32/Lib/site-packages/numpy/ma/core.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-284">
-          <caret line="5055" column="8" selection-start-line="5055" selection-start-column="8" selection-end-line="5055" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1781124807/numpy/core/_multiarray_umath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -613,16 +598,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/huhao">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/huhao.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/huhao" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -637,10 +613,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/huhao.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/UNDO_Google_Image_Downloader/create_dir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="74" column="3" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
+          <folding>
+            <element signature="e#447#474#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/UNDO_Google_Image_Downloader/image_grapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/CountMillionCharacters_Variations.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="-43">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35-32/Lib/turtle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="1616" selection-start-line="1616" selection-end-line="1616" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/koch curve/koch curve.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35-32/Lib/site-packages/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="148" column="42" lean-forward="true" selection-start-line="148" selection-start-column="42" selection-end-line="148" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pandas/Cascade_merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="e#182#200#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
