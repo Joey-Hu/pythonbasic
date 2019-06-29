@@ -13,7 +13,7 @@ import numpy as np
 import cv2
 
 # 当参数 = 0，调取本地摄像头
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('video.mp4')
 
 
 

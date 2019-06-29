@@ -136,3 +136,57 @@ J      45    97  113
 K      23   119    8
 L      19   126  112
 '''
+
+
+# pd.merge()
+# 与concat的区别在于merge需要依据某一共同的行或列来进行合并
+
+# 一对一合并
+
+df9 = DataFrame({'id':[1, 10, 1024], 'name':['Joey', 'Po', 'Philip'], 'sex':['male', 'female', 'male']})
+df10 = DataFrame({'id':[1, 11, 1025], 'age':[20, 21, 22], 'salary':[10000, 20000, 30000]})
+
+print(df9.merge(df10))
+'''
+   id  name   sex  age  salary
+0   1  Joey  male   20   10000
+'''
+
+# 一对多合并
+# 多对多合并 同理
+
+
+# key的规范化
+print('***********************')
+df11 = DataFrame({'id':[1, 10, 1024], 'name':['Joey', 'Po', 'Philip'], 'sex':['male', 'female', 'male']})
+df12 = DataFrame({'id':[1, 11, 1025], 'name':['Joe', 'Po', 'Philip'], 'age':[20, 30, 40]})
+print(pd.merge(df11, df12))     # 没有输出结果，因为尽管两表id=1一样，但是name不一样
+print(pd.merge(df11, df12, on='name'))
+'''
+   id_x    name     sex  age  id_y
+0    10      Po  female   30    11
+1  1024  Philip    male   40  1025
+'''
+
+# 内合并与外合并
+# how属性：inner, outer, left, right
+
+# 列冲突
+print(df11)
+print(df12)
+'''
+     id    name     sex
+0     1    Joey    male
+1    10      Po  female
+2  1024  Philip    male
+   age    id    name
+0   20     1     Joe
+1   30    11      Po
+2   40  1025  Philip
+'''
+# 当列有冲突时，即有多个列名称相同时，需要使用on=来指定哪一个列作为key,配合suffix指定冲突列名
+print(pd.merge(df11,df12,on='id',suffixes=['_A','_B']))
+'''
+   id name_A   sex  age name_B
+0   1   Joey  male   20    Joe
+'''
