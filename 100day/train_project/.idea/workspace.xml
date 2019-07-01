@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79df6a99-2687-47a5-a64b-7873b8df888a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pandas/American_population/American_population.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pandas/American_population/state-abbrevs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pandas/American_population/state-areas.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pandas/American_population/state-population.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OpenCV/img/biye.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pandas/American_population/pop_abbr_area_density2010.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pandas/load_file/load_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenCV/OpenCV_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/OpenCV_video.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas/Cascade_merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/Cascade_merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenCV/OpenCV_ Face recognition.py" beforeDir="false" afterPath="$PROJECT_DIR$/OpenCV/OpenCV_ Face recognition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas/American_population/American_population.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/American_population/American_population.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,23 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pandas/American_population/American_population.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="257" column="8" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
-              <folding>
-                <element signature="e#188#206#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pandas/Group_aggregation.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/OpenCV/OpenCV_ Face recognition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="373">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+              <folding>
+                <element signature="e#191#209#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,6 +57,9 @@
       <find />
       <find>left</find>
     </findStrings>
+    <dirStrings>
+      <dir>D:\Desktop\python\python_basics\100day\train_project\Pandas\American_population</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -67,7 +70,6 @@
         <option value="$PROJECT_DIR$/NUMPY/numpy_learn3.py" />
         <option value="$PROJECT_DIR$/NUMPY/numpy_learn4.py" />
         <option value="$PROJECT_DIR$/OpenCV/OpenCV1.py" />
-        <option value="$PROJECT_DIR$/OpenCV/OpenCV_ Face recognition.py" />
         <option value="$PROJECT_DIR$/Excel.py" />
         <option value="$PROJECT_DIR$/openpyxl/Excel.py" />
         <option value="$PROJECT_DIR$/homework.py" />
@@ -91,13 +93,17 @@
         <option value="$PROJECT_DIR$/OpenCV/OpenCV_video.py" />
         <option value="$PROJECT_DIR$/Pandas/American_population.py" />
         <option value="$PROJECT_DIR$/Pandas/American_population/American_population.py" />
+        <option value="$PROJECT_DIR$/Pandas/load_file/load_file.py" />
+        <option value="$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher.py" />
+        <option value="$PROJECT_DIR$/OpenCV/OpenCV_ Face recognition.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="995" />
-    <option name="width" value="935" />
-    <option name="height" value="1090" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1799" />
+    <option name="y" value="151" />
+    <option name="width" value="1696" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -116,13 +122,18 @@
             <path>
               <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="train_project" type="462c0819:PsiDirectoryNode" />
-              <item name="Pandas" type="462c0819:PsiDirectoryNode" />
+              <item name="geekcomputers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="train_project" type="462c0819:PsiDirectoryNode" />
-              <item name="Pandas" type="462c0819:PsiDirectoryNode" />
-              <item name="American_population" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="train_project" type="462c0819:PsiDirectoryNode" />
+              <item name="OpenCV" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -137,11 +148,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\python\python_basics\100day\train_project\OpenCV\img" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\Pandas\American_population" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\CountMillionCharacters_Variations" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Compression_Analysis" />
-      <recent name="D:\Desktop\python\python basics\100day\train_project\OpenCV\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -156,7 +167,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.American_population">
+  <component name="RunManager" selected="Python.OpenCV_ Face recognition">
     <configuration name="American_population" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="train_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -199,6 +210,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="OpenCV_ Face recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="train_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OpenCV" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/OpenCV_ Face recognition.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="OpenCV_video" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="train_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,27 +244,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OpenCV/OpenCV_video.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="image_grapper" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="train_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geekcomputers/Google_Image_Downloader" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geekcomputers/Google_Image_Downloader/image_grapper.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.OpenCV_ Face recognition" />
         <item itemvalue="Python.American_population" />
         <item itemvalue="Python.OpenCV_video" />
         <item itemvalue="Python.Cascade_merge" />
         <item itemvalue="Python.koch curve" />
-        <item itemvalue="Python.image_grapper" />
       </list>
     </recent_temporary>
   </component>
@@ -307,15 +318,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="-7" width="1480" height="878" extended-state="7" />
+    <frame x="1799" y="151" width="1696" height="1036" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13365652" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15319662" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32815966" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.308311" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2549889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40348527" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,30 +341,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NUMPY/numpy_learn3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="50" column="42" selection-start-line="14" selection-end-line="50" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NUMPY/numpy_learn4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="114" selection-start-line="114" selection-end-line="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35-32/Lib/site-packages/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15984">
-          <caret line="901" column="34" selection-start-line="901" selection-start-column="34" selection-end-line="901" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCV/img/SteveJobs1_gray.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/OpenCV/img/SteveJobs3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -522,13 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python35-32/Lib/site-packages/pandas/core/series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-89">
-          <caret line="3310" column="14" selection-start-line="3310" selection-start-column="14" selection-end-line="3310" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pandas/hierarchical_index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1734">
@@ -620,16 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCV/OpenCV_ Face recognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="33" column="84" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="84" />
-          <folding>
-            <element signature="e#191#209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python35-32/Lib/site-packages/pandas/core/reshape/merge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -657,6 +627,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Python35-32/Lib/site-packages/pandas/core/sparse/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="540" column="8" selection-start-line="540" selection-start-column="8" selection-end-line="540" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pandas/American_population/pop_abbr_area_density2010.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pandas/American_population/American_population.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="411" selection-end-line="553" selection-end-column="70" />
+          <folding>
+            <element signature="e#188#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35-32/Lib/site-packages/pandas/core/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="4220" column="8" selection-start-line="4220" selection-start-column="8" selection-end-line="4220" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pandas/Group_aggregation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -664,12 +661,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/American_population/American_population.py">
+    <entry file="file://$PROJECT_DIR$/Pandas/load_file/load_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="257" column="8" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
+        <state relative-caret-position="198">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OpenCV/OpenCV_ Face recognition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
           <folding>
-            <element signature="e#188#206#0" expanded="true" />
+            <element signature="e#191#209#0" expanded="true" />
           </folding>
         </state>
       </provider>
