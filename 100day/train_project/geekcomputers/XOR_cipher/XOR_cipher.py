@@ -18,4 +18,3 @@ class XORCipher(object):
         # private field
         self.__key = key
 
-    def encrypt

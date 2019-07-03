@@ -27,7 +27,7 @@ sj_raw = cv2.imread('./img/biye.JPG')
 print(np.shape(sj_raw))
 
 # resize图片尺寸
-sj = cv2.resize(sj_raw,dsize=(1500, 1000))
+sj = cv2.resize(sj_raw,dsize=(1600, 1000))
 
 
 # 人脸数据，级联分类器，给定人脸特征数据，返回可以识别人脸的对象
