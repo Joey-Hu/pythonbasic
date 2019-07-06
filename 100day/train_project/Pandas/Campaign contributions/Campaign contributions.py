@@ -369,6 +369,7 @@ cond1 = contb_['cand_nm'] == 'Obama, Barack'
 cond2 = contb_['cand_nm'] == 'Romney, Mitt'
 cond = cond1 | cond2
 contb_vs = contb_[cond]
+contb_vs.to_csv('./data/contb.csv')
 print(contb_vs[:100])
 
 '''
@@ -665,8 +666,171 @@ RETIRED            25305316.38  2.356099e+07  4.886631e+07
 SELF-EMPLOYED        741746.40  2.245273e+06  2.987019e+06
 '''
 
-ret_big.plot(kind='bar')
-plt.show()
+# ret_big.plot(kind='bar')
+# plt.show()
+
+
+def grouped_get_top(grouped,key,n):
+    return grouped.groupby(key)['contb_receipt_amt'].sum().sort_values(ascending=False)[:n]
+
+grouped = contb_.groupby('cand_nm')
+get_top_amount = grouped.apply(grouped_get_top,'contbr_occupation', 7)
+print(get_top_amount)
+'''
+cand_nm                         contbr_occupation                   
+Bachmann, Michelle              RETIRED                                   854535.17
+                                NOT PROVIDE                               167705.00
+                                HOMEMAKER                                 105622.00
+                                PHYSICIAN                                  77319.00
+                                PRESIDENT                                  68831.00
+                                OWNER                                      63790.00
+                                CEO                                        56350.00
+Cain, Herman                    NOT PROVIDE                              3791832.02
+                                RETIRED                                   844671.47
+                                HOMEMAKER                                 173888.07
+                                PHYSICIAN                                 140190.96
+                                CEO                                       139996.00
+                                PRESIDENT                                 103734.97
+                                OWNER                                      90529.00
+Gingrich, Newt                  RETIRED                                  3207514.38
+                                NOT PROVIDE                              1413586.47
+                                HOMEMAKER                                 592440.53
+                                PRESIDENT                                 412545.25
+                                OWNER                                     366031.30
+                                EXECUTIVE                                 359711.00
+                                CEO                                       337755.00
+Huntsman, Jon                   NOT PROVIDE                               400300.00
+                                RETIRED                                   359298.00
+                                HOMEMAKER                                 254024.79
+                                ATTORNEY                                  195379.50
+                                PRESIDENT                                  98751.00
+                                CEO                                        90830.00
+                                EXECUTIVE                                  81205.00
+Johnson, Gary Earl              RETIRED                                   131864.32
+                                SELF-EMPLOYED                              21800.00
+                                                                           ...     
+Pawlenty, Timothy               NOT PROVIDE                               246691.18
+                                EXECUTIVE                                 174200.00
+Perry, Rick                     NOT PROVIDE                              2173215.35
+                                HOMEMAKER                                1921643.00
+                                RETIRED                                  1186686.00
+                                PRESIDENT                                 931100.00
+                                ATTORNEY                                  899783.80
+                                EXECUTIVE                                 743044.94
+                                OWNER                                     606157.00
+Roemer, Charles E. 'Buddy' III  RETIRED                                    80221.31
+                                NOT PROVIDE                                31864.37
+                                ATTORNEY                                   15236.12
+                                HOMEMAKER                                   8675.00
+                                PHYSICIAN                                   7125.00
+                                STUDENT                                     6963.46
+                                ENGINEER                                    6436.40
+Romney, Mitt                    NOT PROVIDE                             11638509.84
+                                RETIRED                                 11508473.59
+                                HOMEMAKER                                8147446.22
+                                ATTORNEY                                 5372424.02
+                                PRESIDENT                                2491244.89
+                                CEO                                      2343547.03
+                                EXECUTIVE                                2300947.03
+Santorum, Rick                  RETIRED                                  2160834.65
+                                HOMEMAKER                                1033342.67
+                                NOT PROVIDE                               968723.54
+                                INFORMATION REQUESTED (BEST EFFORTS)      328323.63
+                                PHYSICIAN                                 314755.19
+                                ATTORNEY                                  293465.58
+                                EXECUTIVE                                 254517.55
+Name: contb_receipt_amt, Length: 91, dtype: float64
+'''
+grouped2 = contb_vs.groupby('cand_nm')
+get_top_amount2 = grouped2.apply(grouped_get_top,'contbr_occupation', 7)
+print(get_top_amount2)
+'''
+cand_nm        contbr_occupation
+Obama, Barack  RETIRED              25305316.38
+               ATTORNEY             14302461.84
+               NOT PROVIDE          13725187.32
+               HOMEMAKER             4248875.80
+               PHYSICIAN             3735124.94
+               CONSULTANT            2459912.71
+               PROFESSOR             2165071.08
+Romney, Mitt   NOT PROVIDE          11638509.84
+               RETIRED              11508473.59
+               HOMEMAKER             8147446.22
+               ATTORNEY              5372424.02
+               PRESIDENT             2491244.89
+               CEO                   2343547.03
+               EXECUTIVE             2300947.03
+Name: contb_receipt_amt, dtype: float64
+'''
+# 行列转换
+get_top_amount2_ = get_top_amount2.unstack(level=0)
+print(get_top_amount2_)
+'''
+cand_nm            Obama, Barack  Romney, Mitt
+contbr_occupation                             
+ATTORNEY             14302461.84    5372424.02
+CEO                          NaN    2343547.03
+CONSULTANT            2459912.71           NaN
+EXECUTIVE                    NaN    2300947.03
+HOMEMAKER             4248875.80    8147446.22
+NOT PROVIDE          13725187.32   11638509.84
+PHYSICIAN             3735124.94           NaN
+PRESIDENT                    NaN    2491244.89
+PROFESSOR             2165071.08           NaN
+RETIRED              25305316.38   11508473.59
+'''
+# get_top_amount2_.plot(kind='bar')
+# plt.show()
+
+# 统计各区间的赞助金额
+labels2 = pd.cut(contb_vs['contb_receipt_amt'],bins)
+print(contb_vs.groupby(['cand_nm',labels2]).size().unstack(level=0, fill_value=0))
+'''
+cand_nm             Obama, Barack  Romney, Mitt
+contb_receipt_amt                              
+(0, 1]                        493            77
+(1, 10]                     40070          3681
+(10, 100]                  372280         31853
+(100, 1000]                153992         43357
+(1000, 10000]               22284         26186
+(10000, 100000]                 2             1
+(100000, 1000000]               3             0
+(1000000, 5000000]              4             0
+'''
+amount_vs1 = contb_vs.groupby(['cand_nm',labels2]).sum().unstack(level=0, fill_value=0)
+amount_vs = amount_vs1.fillna(0)
+print(amount_vs)
+'''
+                   contb_receipt_amt             
+cand_nm                Obama, Barack Romney, Mitt
+contb_receipt_amt                                
+(0, 1]                        318.24        77.00
+(1, 10]                    337267.62     29819.66
+(10, 100]                20288981.41   1987783.76
+(100, 1000]              54798731.46  22363381.69
+(1000, 10000]            51753705.67  63942145.42
+(10000, 100000]             59100.00     12700.00
+(100000, 1000000]         1490683.08         0.00
+(1000000, 5000000]        7148839.76         0.00
+'''
+# 绘图
+# amount_vs.plot(kind='bar')
+# plt.show()
+
+
+# 虽然上图能够看出Obama，Romney的赞助金额区间分布，但对比不够突出，用百分比堆积图比较好
+# amount_vs.div(amount_vs.sum(axis=1),axis=0)[:-2].plot(kind='bar',stacked=True)
+# plt.show()
+
+
+# 时间处理
+# str转datatime
+# print(contb_vs.head())
+# print(contb_vs['contb_receipt_dt'].dtypes)      # object string类型
+# contb_vs['contb_receipt_dt'] = pd.to_datetime(contb_vs['contb_receipt_dt'])
+# print(contb_vs['contb_receipt_dt'].dtypes)      # datetime64[ns]
+# contb_vs.to_csv('./contb_vs_dt.csv')
+
 
 
 
