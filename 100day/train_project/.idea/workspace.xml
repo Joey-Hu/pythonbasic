@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79df6a99-2687-47a5-a64b-7873b8df888a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/XOR_cipher/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/review.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_for_Data_Anlysis_examples/Random walk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/Accnt_Record.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/BankSystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/GUI-BankSystem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/balance1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/credit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/debit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/login.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/logout.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/new.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/pile1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/quit.GIF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/transaction.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/UNDO_Bank_managment_system/backend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/UNDO_Bank_managment_system/bankmanaging.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/UNDO_Bank_managment_system/frontend.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas/Campaign contributions/Campaign contributions_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/Campaign contributions/Campaign contributions_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,78 +28,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2238">
-                  <caret line="227" column="33" selection-start-line="227" selection-start-column="33" selection-end-line="227" selection-end-column="33" />
-                  <folding>
-                    <element signature="e#2837#3425#0" />
-                    <element signature="e#3476#4151#0" />
-                    <element signature="e#4200#4875#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher_1.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="492">
-                  <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1781124807/builtins.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-634">
-                  <caret line="339" column="4" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/geekcomputers/XOR_cipher/decrypt.out">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="18">
-                  <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/geekcomputers/XOR_cipher/encrypt.out">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="52" lean-forward="true" selection-start-column="42" selection-end-column="52" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="222">
-                  <caret line="160" column="54" lean-forward="true" selection-start-line="160" selection-start-column="54" selection-end-line="160" selection-end-column="54" />
-                  <folding>
-                    <element signature="e#4200#4875#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/review.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#110#128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python_for_Data_Anlysis_examples/Random walk.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+              <folding>
+                <element signature="e#115#128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -109,6 +74,11 @@
       <find>label</find>
       <find>index</find>
       <find>contb_vs</find>
+      <find>Tk()</find>
+      <find>Tk</find>
+      <find>Admin</find>
+      <find>create</find>
+      <find>update</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Desktop\python\python_basics\100day\train_project\Pandas\American_population</dir>
@@ -153,11 +123,19 @@
         <option value="$PROJECT_DIR$/Pandas/AppleStock/AppleStock.py" />
         <option value="$PROJECT_DIR$/Pandas/Campaign contributions/Campaign contributions.py" />
         <option value="$PROJECT_DIR$/Pandas/Campaign contributions/Campaign contributions_1.py" />
-        <option value="$PROJECT_DIR$/review.py" />
         <option value="$PROJECT_DIR$/geekcomputers/XOR_cipher/test.txt" />
         <option value="$PROJECT_DIR$/geekcomputers/XOR_cipher/encrypt.out" />
         <option value="$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher.py" />
         <option value="$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher_1.py" />
+        <option value="$PROJECT_DIR$/geekcomputers/asynsc_downloader.py" />
+        <option value="$PROJECT_DIR$/geekcomputers/Bank_managment_system/backend.py" />
+        <option value="$PROJECT_DIR$/geekcomputers/Bank_managment_system/frontend.py" />
+        <option value="$PROJECT_DIR$/../../../../BankingSystem-master/GUI-BankSystem.py" />
+        <option value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/GUI-BankSystem.py" />
+        <option value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/Accnt_Record.txt" />
+        <option value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/BankSystem.py" />
+        <option value="$PROJECT_DIR$/review.py" />
+        <option value="$PROJECT_DIR$/Python_for_Data_Anlysis_examples/Random walk.py" />
       </list>
     </option>
   </component>
@@ -173,7 +151,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,21 +158,11 @@
               <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="train_project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="train_project" type="462c0819:PsiDirectoryNode" />
-              <item name="geekcomputers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="train_project" type="462c0819:PsiDirectoryNode" />
-              <item name="geekcomputers" type="462c0819:PsiDirectoryNode" />
-              <item name="XOR_cipher" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,12 +171,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Bank_managment_system_huhao" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Bank_managment_system_huhao" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\Pandas\Campaign contributions\data" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\Pandas\Campaign contributions" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\Pandas\AppleStock" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\OpenCV\img" />
-      <recent name="D:\Desktop\python\python_basics\100day\train_project\Pandas\American_population" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -224,8 +194,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.XOR_cipher_1">
-    <configuration name="AppleStock" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.Random walk">
+    <configuration name="BankSystem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="train_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,11 +203,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas/AppleStock" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/AppleStock/AppleStock.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/BankSystem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -246,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Campaign contributions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GUI-BankSystem (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="train_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,11 +224,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas/Campaign contributions" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/Campaign contributions/Campaign contributions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/GUI-BankSystem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -267,7 +237,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Campaign contributions_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GUI-BankSystem (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="train_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -275,11 +245,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pandas/Campaign contributions" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../BankingSystem-master" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pandas/Campaign contributions/Campaign contributions_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../BankingSystem-master/GUI-BankSystem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -288,7 +258,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="XOR_cipher" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="GUI-BankSystem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="train_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -296,11 +266,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geekcomputers/XOR_cipher" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../BankingSystem-master" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher.py" />
+      <option name="SCRIPT_NAME" value="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Bank_managment_system_huhao\GUI-BankSystem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -309,7 +279,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="XOR_cipher_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Random walk" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="train_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -317,11 +287,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geekcomputers/XOR_cipher" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_for_Data_Anlysis_examples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_for_Data_Anlysis_examples/Random walk.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -353,11 +323,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.XOR_cipher_1" />
-        <item itemvalue="Python.XOR_cipher" />
-        <item itemvalue="Python.Campaign contributions_1" />
-        <item itemvalue="Python.Campaign contributions" />
-        <item itemvalue="Python.AppleStock" />
+        <item itemvalue="Python.Random walk" />
+        <item itemvalue="Python.BankSystem" />
+        <item itemvalue="Python.GUI-BankSystem (1)" />
+        <item itemvalue="Python.GUI-BankSystem (2)" />
+        <item itemvalue="Python.GUI-BankSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -378,12 +348,12 @@
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09366391" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1714876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32815966" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22520107" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3016086" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40348527" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -392,173 +362,24 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" auto_hide="true" x="0" y="0" width="322" height="678" id="Documentation" type="SLIDING" weight="0.32937062" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" auto_hide="true" x="0" y="0" width="322" height="678" id="Documentation" order="3" type="SLIDING" weight="0.32937062" />
     </layout>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/geekcomputers/UNDO_Bank_managment_system/frontend.py</url>
+          <line>1129</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python35-32/Lib/site-packages/numpy/lib/npyio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20934">
-          <caret line="1191" column="14" selection-start-line="1191" selection-start-column="14" selection-end-line="1191" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/TestDataFrame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4950">
-          <caret line="278" selection-start-line="278" selection-end-line="278" />
-          <folding>
-            <element signature="e#181#199#0" expanded="true" />
-            <marker date="1561364253429" expanded="true" signature="419:629" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/index_random.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1781124807/cv2/cv2/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10171">
-          <caret line="7408" column="26" selection-start-line="7408" selection-start-column="26" selection-end-line="7408" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Compression_Analysis/PSNR.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35-32/Lib/site-packages/pandas/core/frame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="4458" column="30" lean-forward="true" selection-start-line="4458" selection-start-column="8" selection-end-line="4458" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/Pandas_missingValue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3240">
-          <caret line="274" column="11" lean-forward="true" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
-          <folding>
-            <element signature="e#242#261#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35-32/Lib/site-packages/pandas/core/indexes/multi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="347" column="8" selection-start-line="347" selection-start-column="8" selection-end-line="347" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35-32/Lib/site-packages/pandas/core/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="10068" column="12" selection-start-line="10068" selection-start-column="12" selection-end-line="10068" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/hierarchical_index.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1734">
-          <caret line="5" selection-start-line="5" selection-end-line="6" />
-          <folding>
-            <element signature="e#184#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35-32/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="331" selection-start-line="331" selection-end-line="331" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35-32/Lib/site-packages/numpy/core/defchararray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="2538" column="16" lean-forward="true" selection-start-line="2538" selection-start-column="16" selection-end-line="2538" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/huhao" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="348" column="8" selection-start-line="348" selection-start-column="8" selection-end-line="348" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/huhao.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/UNDO_Google_Image_Downloader/create_dir.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="74" column="3" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
-          <folding>
-            <element signature="e#447#474#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/UNDO_Google_Image_Downloader/image_grapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/CountMillionCharacters_Variations/CountMillionCharacters_Variations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35-32/Lib/turtle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="1616" selection-start-line="1616" selection-end-line="1616" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/koch curve/koch curve.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35-32/Lib/site-packages/numpy/core/multiarray.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2484">
-          <caret line="148" column="42" selection-start-line="148" selection-start-column="42" selection-end-line="148" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python35-32/Lib/site-packages/pandas/core/reshape/merge.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -732,16 +553,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/review.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#110#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geekcomputers/XOR_cipher/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -763,29 +574,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher.py">
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1781124807/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2238">
-          <caret line="227" column="33" selection-start-line="227" selection-start-column="33" selection-end-line="227" selection-end-column="33" />
+        <state relative-caret-position="-382">
+          <caret line="339" column="4" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/asynsc_downloader.py" />
+    <entry file="file://$PROJECT_DIR$/geekcomputers/UNDO_Bank_managment_system/backend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3558">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/UNDO_Bank_managment_system/frontend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6053">
+          <caret line="624" column="9" selection-start-line="624" selection-start-column="4" selection-end-line="624" selection-end-column="9" />
           <folding>
-            <element signature="e#2837#3425#0" />
-            <element signature="e#3476#4151#0" />
-            <element signature="e#4200#4875#0" />
+            <element signature="e#136#157#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1781124807/builtins.py">
+    <entry file="file://$PROJECT_DIR$/../../../../BankingSystem-master/GUI-BankSystem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-634">
-          <caret line="339" column="4" selection-start-line="339" selection-start-column="4" selection-end-line="339" selection-end-column="4" />
+        <state relative-caret-position="211">
+          <caret line="319" column="20" lean-forward="true" selection-start-line="319" selection-start-column="20" selection-end-line="319" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+        <state relative-caret-position="660">
+          <caret line="98" selection-start-line="98" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="199" column="16" selection-end-line="228" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35-32/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="1990" column="4" selection-start-line="1990" selection-start-column="4" selection-end-line="1990" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015005-pin.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015005-rec.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015006.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015005.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015008.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015008-rec.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015007-rec.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015009-rec.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015003-rec.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015002-rec.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015002-pin.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://C:/Python35-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015001-rec.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/Accnt_Record.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/BankSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="145" column="61" lean-forward="true" selection-start-line="145" selection-start-column="61" selection-end-line="145" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/GUI-BankSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1908">
+          <caret line="114" column="33" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#110#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python_for_Data_Anlysis_examples/Random walk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="e#115#128#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
