@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79df6a99-2687-47a5-a64b-7873b8df888a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_for_Data_Anlysis_examples/Random walk.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/Accnt_Record.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/BankSystem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/GUI-BankSystem.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/balance1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/credit.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/debit.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/login.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/logout.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/new.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/pile1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/quit.GIF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/transaction.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/UNDO_Bank_managment_system/backend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/UNDO_Bank_managment_system/bankmanaging.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/geekcomputers/UNDO_Bank_managment_system/frontend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/huhao/huhao_BankSystem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015001-pin.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015001-rec.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015001.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/Accnt_Record.txt" beforeDir="false" afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/Accnt_Record.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/BankSystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/BankSystem.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,32 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/review.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#110#128#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python_for_Data_Anlysis_examples/Random walk.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-              <folding>
-                <element signature="e#115#128#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,6 +43,7 @@
       <find>Admin</find>
       <find>create</find>
       <find>update</find>
+      <find>Accnt_Record_h</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Desktop\python\python_basics\100day\train_project\Pandas\American_population</dir>
@@ -132,10 +97,13 @@
         <option value="$PROJECT_DIR$/geekcomputers/Bank_managment_system/frontend.py" />
         <option value="$PROJECT_DIR$/../../../../BankingSystem-master/GUI-BankSystem.py" />
         <option value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/GUI-BankSystem.py" />
-        <option value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/Accnt_Record.txt" />
-        <option value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/BankSystem.py" />
         <option value="$PROJECT_DIR$/review.py" />
         <option value="$PROJECT_DIR$/Python_for_Data_Anlysis_examples/Random walk.py" />
+        <option value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/huhao_BankSystem.py" />
+        <option value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/Accnt_Record.txt" />
+        <option value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/BankSystem.py" />
+        <option value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/huhao/Accnt_Record.txt" />
+        <option value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/huhao/huhao_BankSystem.py" />
       </list>
     </option>
   </component>
@@ -151,6 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,11 +127,15 @@
               <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="train_project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="train_project" type="462c0819:PsiDirectoryNode" />
+              <item name="geekcomputers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,15 +144,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Bank_managment_system_huhao" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Bank_managment_system_huhao\huhao" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Bank_managment_system_huhao" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\Pandas\Campaign contributions\data" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\Pandas\Campaign contributions" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\Pandas\AppleStock" />
-      <recent name="D:\Desktop\python\python_basics\100day\train_project\OpenCV\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Bank_managment_system_huhao\huhao" />
+      <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Bank_managment_system_huhao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -194,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Random walk">
+  <component name="RunManager" selected="Python.huhao_BankSystem">
     <configuration name="BankSystem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="train_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -258,27 +232,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GUI-BankSystem" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="train_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../BankingSystem-master" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Bank_managment_system_huhao\GUI-BankSystem.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Random walk" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="train_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -292,6 +245,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_for_Data_Anlysis_examples/Random walk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="huhao_BankSystem" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="train_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/huhao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/huhao/huhao_BankSystem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -323,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Random walk" />
+        <item itemvalue="Python.huhao_BankSystem" />
         <item itemvalue="Python.BankSystem" />
+        <item itemvalue="Python.Random walk" />
         <item itemvalue="Python.GUI-BankSystem (1)" />
         <item itemvalue="Python.GUI-BankSystem (2)" />
-        <item itemvalue="Python.GUI-BankSystem" />
       </list>
     </recent_temporary>
   </component>
@@ -346,13 +320,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1714876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13980716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32815966" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32707775" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3016086" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40348527" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -380,71 +353,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Python35-32/Lib/site-packages/pandas/core/reshape/merge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCV/OpenCV_video.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#181#199#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35-32/Lib/site-packages/pandas/core/sparse/series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="540" column="8" selection-start-line="540" selection-start-column="8" selection-end-line="540" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/American_population/pop_abbr_area_density2010.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/Python35-32/Lib/site-packages/pandas/core/series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="4220" column="8" selection-start-line="4220" selection-start-column="8" selection-end-line="4220" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/Group_aggregation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OpenCV/OpenCV_ Face recognition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="37" column="109" selection-start-line="37" selection-start-column="91" selection-end-line="37" selection-end-column="109" />
-          <folding>
-            <element signature="e#191#209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/load_file/load_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python35-32/Lib/site-packages/pandas/io/sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="331" column="49" lean-forward="true" selection-start-line="330" selection-start-column="10" selection-end-line="331" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pandas/Campaign contributions/data/data_01.csv">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
@@ -599,16 +507,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../BankingSystem-master/GUI-BankSystem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="319" column="20" lean-forward="true" selection-start-line="319" selection-start-column="20" selection-end-line="319" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../BankingSystem-master/GUI-BankSystem.py" />
     <entry file="file://$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -630,43 +529,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015005-pin.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015005-rec.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015006.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015005.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015008.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015008-rec.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015007-rec.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015009-rec.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015003-rec.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015002-rec.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015002-pin.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015005-pin.txt" />
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015005-rec.txt" />
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015006.txt" />
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015005.txt" />
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015008.txt" />
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015008-rec.txt" />
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015007-rec.txt" />
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015009-rec.txt" />
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015003-rec.txt" />
     <entry file="file://C:/Python35-32/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -676,20 +547,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015001-rec.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/Accnt_Record.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/BankSystem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="145" column="61" lean-forward="true" selection-start-line="145" selection-start-column="61" selection-end-line="145" selection-end-column="61" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/GUI-BankSystem.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -714,6 +571,85 @@
           <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
           <folding>
             <element signature="e#115#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015001-pin.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015001.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/huhao/Accnt_Record_h.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015002-pin.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015002.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015002-rec.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/Accnt_Record.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/huhao/63710015001-pin.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/huhao/Accnt_Record.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/huhao/63710015001-rec.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/huhao/63710015001.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="11" selection-start-line="2" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/BankSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+          <folding>
+            <element signature="e#16#26#0" expanded="true" />
+            <element signature="e#234#1703#0" />
+            <element signature="e#1739#1885#0" />
+            <element signature="e#1937#2111#0" />
+            <element signature="e#2171#2719#0" />
+            <element signature="e#2781#3115#0" />
+            <element signature="e#3167#3288#0" />
+            <element signature="e#3352#4574#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/huhao/huhao_BankSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#122#132#0" expanded="true" />
+            <element signature="e#2960#3135#0" />
+            <element signature="e#3201#3365#0" />
+            <element signature="e#3393#3514#0" />
           </folding>
         </state>
       </provider>

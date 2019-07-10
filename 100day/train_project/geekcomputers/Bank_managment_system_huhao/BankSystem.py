@@ -7,6 +7,7 @@ from time import gmtime, strftime
 
 
 class Bank:
+    # 文件读取
     f1 = open("Accnt_Record.txt", 'r+')
     a = int(f1.readline()) + 1
     f1.close()
@@ -22,7 +23,7 @@ class Bank:
         print("5] Transaction Summary")
         choice = int(input("Enter your choice:"))
 
-        if (choice == 1):
+        if choice == 1:
             name = input("Enter name:")
             amt = (int)(input("\nEnter opening balance:"))
             self.create(name, amt)
@@ -86,10 +87,10 @@ class Bank:
 
     # 存款
     def credit(self, accnt_no, name, amt):
-        f = open(str(accnt_no) + ".txt", "r+")
+        f = open(str(accnt_no) + ".txt", "r+")  # r+、w+可读可写，覆盖
         cb = int(f.readline())
         cb = cb + amt
-        ff = open(str(accnt_no) + "-rec.txt", 'a+')
+        ff = open(str(accnt_no) + "-rec.txt", 'a+')     # a+ 可读可写，追加写
         ff.write(str(strftime("[%Y-%m-%d] [%H:%M:%S]  ", gmtime())) + "\t" + str(amt) + "\t    \t" + str(cb) + "\n")
         ff.close()
         self.update(cb, name, accnt_no)
@@ -117,7 +118,7 @@ class Bank:
             print("Enter pin of exaclty 4 digits!!")
 
         fpin = open(str(accnt_no) + "-pin.txt", 'w')
-        fpin.write(str(pin))
+        fpin.write("Account:" + str(accnt_no) + "\t" + "pin:" + str(pin))
         fpin.close()
 
         f1 = open("Accnt_Record.txt", 'w+')
