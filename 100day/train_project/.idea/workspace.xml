@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79df6a99-2687-47a5-a64b-7873b8df888a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pandas/mat/mat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCipy/Matrix.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matplotlib/mat_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pyecharts/pyecharts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas/mat/mat.py" beforeDir="false" afterPath="$PROJECT_DIR$/Matplotlib/mat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/review.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,25 +18,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pandas/mat/mat.py">
+        <entry file="file://$PROJECT_DIR$/Matplotlib/mat_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+            <state relative-caret-position="426">
+              <caret line="94" selection-start-line="94" selection-end-line="94" selection-end-column="85" />
               <folding>
-                <element signature="e#108#126#0" expanded="true" />
+                <element signature="e#110#128#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SCipy/Moon landing/image_denoising.py">
+        <entry file="file://C:/Python35-32/Lib/site-packages/matplotlib/pyplot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-205">
-              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-              <folding>
-                <element signature="e#120#138#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-2606">
+              <caret line="2923" column="48" selection-start-line="2923" selection-start-column="42" selection-end-line="2923" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -69,6 +69,7 @@
       <find>id</find>
       <find>cond</find>
       <find>__xVel</find>
+      <find>marker</find>
     </findStrings>
     <dirStrings>
       <dir>D:\Desktop\python\python_basics\100day\train_project\Pandas\American_population</dir>
@@ -80,8 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Pandas/TestDataFrame.py" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
         <option value="$PROJECT_DIR$/geekcomputers/python/PSNR.py" />
         <option value="$PROJECT_DIR$/geekcomputers/Compression_Analysis/PSNR.py" />
         <option value="$PROJECT_DIR$/Pandas/Pandas_missingValue.py" />
@@ -131,6 +130,8 @@
         <option value="$PROJECT_DIR$/geekcomputers/Binary_coefficients.py" />
         <option value="$PROJECT_DIR$/SCipy/Matrix.py" />
         <option value="$PROJECT_DIR$/Pandas/mat/mat.py" />
+        <option value="$PROJECT_DIR$/Pyecharts/pyecharts.py" />
+        <option value="$PROJECT_DIR$/Matplotlib/mat_2.py" />
       </list>
     </option>
   </component>
@@ -153,22 +154,6 @@
               <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="train_project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="train_project" type="462c0819:PsiDirectoryNode" />
-              <item name="Pandas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="train_project" type="462c0819:PsiDirectoryNode" />
-              <item name="SCipy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="train_project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="train_project" type="462c0819:PsiDirectoryNode" />
-              <item name="SCipy" type="462c0819:PsiDirectoryNode" />
-              <item name="Moon landing" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -178,20 +163,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Bank_managment_system_huhao\huhao" />
+      <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Bank_managment_system_huhao" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\python\python_basics\100day\train_project" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\brickout_game" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\SCipy\Moon landing" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\Python_for_analysis" />
       <recent name="D:\Desktop\python\python_basics\100day\train_project\Python_for_analysis\USDA" />
-      <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Bank_managment_system_huhao\huhao" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Bank_managment_system_huhao\huhao" />
-      <recent name="D:\Desktop\python\python_basics\100day\train_project\geekcomputers\Bank_managment_system_huhao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -206,28 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mat">
-    <configuration name="GUI-BankSystem" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="train_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/GUI-BankSystem.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.mat_2">
     <configuration name="Matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="train_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,27 +205,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SCipy/Matrix.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Scipyio" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="train_project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SCipy/Scipyio" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SCipy/Scipyio/Scipyio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -312,6 +255,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="mat_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="train_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Matplotlib" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Matplotlib/mat_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="numpy_learn3" type="PythonConfigurationType" factoryName="Python">
       <module name="train_project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -333,13 +297,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pyecharts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="train_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pyecharts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pyecharts/pyecharts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mat_2" />
         <item itemvalue="Python.mat" />
+        <item itemvalue="Python.pyecharts" />
         <item itemvalue="Python.Matrix" />
         <item itemvalue="Python.brickout_game" />
-        <item itemvalue="Python.GUI-BankSystem" />
-        <item itemvalue="Python.Scipyio" />
       </list>
     </recent_temporary>
   </component>
@@ -367,9 +352,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13980716" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13980716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -401,38 +385,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/geekcomputers/UNDO_Bank_managment_system/backend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3558">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/UNDO_Bank_managment_system/frontend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6053">
-          <caret line="624" column="9" selection-start-line="624" selection-start-column="4" selection-end-line="624" selection-end-column="9" />
-          <folding>
-            <element signature="e#136#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../BankingSystem-master/GUI-BankSystem.py" />
-    <entry file="file://$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="98" selection-start-line="98" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geekcomputers/XOR_cipher/XOR_cipher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="199" column="16" selection-end-line="228" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Python35-32/Lib/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -457,16 +409,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/geekcomputers/Bank_managment_system_huhao/63710015001-rec.txt" />
-    <entry file="file://$PROJECT_DIR$/review.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#110#128#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python_for_analysis/Random walk.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -674,11 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python35-32/Lib/site-packages/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350" />
-      </provider>
-    </entry>
     <entry file="file://C:/Python35-32/Lib/site-packages/pandas/core/series.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
@@ -688,20 +625,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SCipy/Moon landing/image_denoising.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-205">
-          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="264">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding>
             <element signature="e#120#138#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pandas/mat/mat.py">
+    <entry file="file://$PROJECT_DIR$/homework.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/review.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#110#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pyecharts/pyecharts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="e#114#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matplotlib/mat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="50" column="34" lean-forward="true" selection-start-line="50" selection-start-column="34" selection-end-line="50" selection-end-column="34" />
           <folding>
             <element signature="e#108#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1781124807/numpy/core/_multiarray_umath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35-32/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2606">
+          <caret line="2923" column="48" selection-start-line="2923" selection-start-column="42" selection-end-line="2923" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python35-32/Lib/site-packages/matplotlib/lines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="1094" selection-start-line="1094" selection-end-line="1094" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Matplotlib/mat_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="94" selection-start-line="94" selection-end-line="94" selection-end-column="85" />
+          <folding>
+            <element signature="e#110#128#0" expanded="true" />
           </folding>
         </state>
       </provider>
