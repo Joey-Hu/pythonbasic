@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="512e68ae-70aa-4030-83e5-2dafff6962aa" name="Default Changelist" comment="" />
+    <list default="true" id="512e68ae-70aa-4030-83e5-2dafff6962aa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/2019/crawler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/2019/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/Complete/CompleteDataset.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/Complete/PlayerPersonalData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/Complete/PlayerPlayingPositionData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/Complete/basicplayerdata.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/MergingDatasets.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/crawler.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/ValuevsAgeBox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/ValuevsAgeViolin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/ValuevsPosBox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/WagevsAgeBox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/WagevsAgeViolin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/bestsquad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/bestsquad2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/conflr (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/coolplot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/detailspage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/heatmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/mainpage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/ni.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/ovrclbbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/ovrnatbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/ovrpotage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/ovrvsagepos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/potclbbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/potnatbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/topbyposn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/topbyposn2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/valAgeViolin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/valclbbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/valfpos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/wagclbbox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/worldmap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/worth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/FIFA_players/imgs/worthlegend.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,17 +50,7 @@
     <favorites_list name="100day" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day11/text.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,14 +81,15 @@
         <option value="$PROJECT_DIR$/Day9/case4_payrollSystem.py" />
         <option value="$PROJECT_DIR$/Day9/UNDO_case3_ Blackjack game.py" />
         <option value="$PROJECT_DIR$/Day11/text.py" />
+        <option value="$PROJECT_DIR$/train_project/FIFA_players/FIFA1.py" />
+        <option value="$PROJECT_DIR$/train_project/FIFA_players/FIFA1.ipynb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="-10" />
-    <option name="width" value="1860" />
-    <option name="height" value="1099" />
+    <option name="x" value="2753" />
+    <option name="width" value="854" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -78,7 +107,27 @@
             <path>
               <item name="100day" type="b2602c69:ProjectViewProjectNode" />
               <item name="100day" type="462c0819:PsiDirectoryNode" />
-              <item name="Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="train_project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100day" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100day" type="462c0819:PsiDirectoryNode" />
+              <item name="train_project" type="462c0819:PsiDirectoryNode" />
+              <item name="FIFA_players" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100day" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100day" type="462c0819:PsiDirectoryNode" />
+              <item name="train_project" type="462c0819:PsiDirectoryNode" />
+              <item name="FIFA_players" type="462c0819:PsiDirectoryNode" />
+              <item name="2019" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="100day" type="b2602c69:ProjectViewProjectNode" />
+              <item name="100day" type="462c0819:PsiDirectoryNode" />
+              <item name="train_project" type="462c0819:PsiDirectoryNode" />
+              <item name="FIFA_players" type="462c0819:PsiDirectoryNode" />
+              <item name="Complete" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -92,6 +141,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Desktop\python\python_basics\100day\train_project\FIFA_players\imgs" />
+      <recent name="D:\Desktop\python\python_basics\100day\train_project\FIFA_players" />
       <recent name="D:\Desktop\python\python_basics\100day\Day11" />
     </key>
   </component>
@@ -107,7 +158,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.text">
+  <component name="RunManager" selected="Jupyter Notebook.100day">
+    <configuration name="100day" type="JupiterNotebook" factoryName="Jupyter Notebook">
+      <module name="100day" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="additionalOptions" value="" />
+      <option name="ipnbHost" value="127.0.0.1" />
+      <option name="ipnbPort" value="8888" />
+      <method v="2" />
+    </configuration>
     <configuration name="case1_ultraman" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100day" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,10 +314,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1696" height="1036" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.13980716" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.12002412" />
       <window_info id="Structure" order="1" sideWeight="0.502" side_tool="true" weight="0.18112947" />
       <window_info id="Favorites" order="2" sideWeight="0.502" side_tool="true" weight="0.18112947" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3297587" />
@@ -257,7 +324,7 @@
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.3297587" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.24396783" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.24390244" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -381,6 +448,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_project/FIFA_players/FIFA1.py" />
+    <entry file="file://$PROJECT_DIR$/train_project/FIFA_players/FIFA1.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="3" />
         </state>
       </provider>
     </entry>
