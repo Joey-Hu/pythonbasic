@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5119a25b-6f97-44c8-a9fe-22530bce99b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100day/Day12/str1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100day/Day12/str2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100day/train_project/Python_Practice_of_Data_Analysis_and_Mining/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100day/train_project/Python_Practice_of_Data_Analysis_and_Mining/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100day/train_project/Python_Practice_of_Data_Analysis_and_Mining/chapter3/code/quantitative_analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100day/train_project/Python_Practice_of_Data_Analysis_and_Mining/chapter3/data/catering_fish_congee.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/100day/train_project/Python_Practice_of_Data_Analysis_and_Mining/chapter3/data/catering_sale.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100day/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/100day/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/100day/train_project/Pandas/Campaign contributions/Campaign contributions.py" beforeDir="false" afterPath="$PROJECT_DIR$/100day/train_project/Pandas/Campaign contributions/Campaign contributions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100day/Day12/str3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100day/Day16-20/Sort/bubble_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100day/Day16-20/Sort/merge_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/100day/Day16-20/Sort/select_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,33 +15,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/100day/Day12/regular_expression.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/100day/Day12/regular_expression2.py">
+        <entry file="file://$PROJECT_DIR$/100day/Day16-20/Sort/select_sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204" />
+            <state relative-caret-position="180">
+              <caret line="10" column="3" selection-end-line="34" selection-end-column="10" />
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/100day/Day12/str1.py">
+        <entry file="file://$PROJECT_DIR$/100day/Day16-20/Sort/bubble_sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="288">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/100day/Day12/str2.py">
+        <entry file="file://$PROJECT_DIR$/100day/Day16-20/Sort/merge_sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="360">
+              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -68,10 +60,16 @@
       <list>
         <option value="$PROJECT_DIR$/100day/Day12/str1.py" />
         <option value="$PROJECT_DIR$/100day/Day12/str2.py" />
+        <option value="$PROJECT_DIR$/100day/Day12/str3.py" />
+        <option value="$PROJECT_DIR$/../../sherlock/sherlock.py" />
+        <option value="$PROJECT_DIR$/../../sherlock/load_proxies.py" />
+        <option value="$PROJECT_DIR$/100day/Day16-20/Sort/select_sort.py" />
+        <option value="$PROJECT_DIR$/100day/Day16-20/Sort/bubble_sort.py" />
+        <option value="$PROJECT_DIR$/100day/Day16-20/Sort/merge_sort.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="645" />
     <option name="y" value="290" />
     <option name="width" value="855" />
@@ -99,7 +97,14 @@
               <item name="python_basics" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_basics" type="462c0819:PsiDirectoryNode" />
               <item name="100day" type="462c0819:PsiDirectoryNode" />
-              <item name="Day12" type="462c0819:PsiDirectoryNode" />
+              <item name="Day16-20" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_basics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_basics" type="462c0819:PsiDirectoryNode" />
+              <item name="100day" type="462c0819:PsiDirectoryNode" />
+              <item name="Day16-20" type="462c0819:PsiDirectoryNode" />
+              <item name="Sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -122,8 +127,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.str2">
-    <configuration name="str1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.bubble_sort">
+    <configuration name="bubble_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_basics" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -131,11 +136,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100day/Day12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100day/Day16-20/Sort" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100day/Day12/str1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100day/Day16-20/Sort/bubble_sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="select_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_basics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100day/Day16-20/Sort" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100day/Day16-20/Sort/select_sort.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sherlock" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_basics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../sherlock" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../sherlock/sherlock.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,10 +212,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="str3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_basics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/100day/Day12" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/100day/Day12/str3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.bubble_sort" />
+        <item itemvalue="Python.select_sort" />
+        <item itemvalue="Python.sherlock" />
+        <item itemvalue="Python.str3" />
         <item itemvalue="Python.str2" />
-        <item itemvalue="Python.str1" />
       </list>
     </recent_temporary>
   </component>
@@ -189,32 +260,31 @@
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/100day/Day12/regular_expression.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/100day/Day12/regular_expression2.py">
+    <entry file="file://$PROJECT_DIR$/100day/Day12/str2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
+        <state relative-caret-position="504">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/100day/Day12/str1.py">
@@ -224,10 +294,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/100day/Day12/str2.py">
+    <entry file="file://$PROJECT_DIR$/100day/Day12/regular_expression2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100day/Day12/regular_expression.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sherlock/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100day/Day12/str3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="540">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sherlock/load_proxies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../sherlock/sherlock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="547" selection-start-line="547" selection-end-line="548" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100day/Day16-20/Sort/select_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="3" selection-end-line="34" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100day/Day16-20/Sort/bubble_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/100day/Day16-20/Sort/merge_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
         </state>
       </provider>
     </entry>
