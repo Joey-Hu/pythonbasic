@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512e68ae-70aa-4030-83e5-2dafff6962aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/train_project/pygame/myplane.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_project/pygame/enemies.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_project/pygame/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_project/pygame/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_project/pygame/myplane.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_project/pygame/myplane.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,24 +19,24 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/train_project/pygame/main.py">
+            <entry file="file://$PROJECT_DIR$/train_project/pygame/myplane.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="295">
-                  <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#0#13#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="450">
+                  <caret line="23" column="75" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="75" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/train_project/pygame/myplane.py">
+            <entry file="file://$PROJECT_DIR$/train_project/pygame/enemies.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                <state relative-caret-position="979">
+                  <caret line="86" column="48" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
+                  <folding>
+                    <element signature="e#150#163#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -44,10 +46,13 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/../../../plane/myplane.py">
+            <entry file="file://$PROJECT_DIR$/train_project/pygame/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-528">
-                  <caret column="13" selection-start-column="13" selection-end-column="13" />
+                <state relative-caret-position="277">
+                  <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -67,6 +72,7 @@
     <findStrings>
       <find>main</find>
       <find>QUIT</find>
+      <find>key_</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,8 +105,9 @@
         <option value="$PROJECT_DIR$/Day12/regular_expression.py" />
         <option value="$PROJECT_DIR$/Day12/regular_expression2.py" />
         <option value="$PROJECT_DIR$/train_project/Pandas/Campaign contributions/Campaign contributions.py" />
-        <option value="$PROJECT_DIR$/train_project/pygame/main.py" />
         <option value="$PROJECT_DIR$/train_project/pygame/myplane.py" />
+        <option value="$PROJECT_DIR$/train_project/pygame/main.py" />
+        <option value="$PROJECT_DIR$/train_project/pygame/enemies.py" />
       </list>
     </option>
   </component>
@@ -116,7 +123,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,6 +145,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,7 +210,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="binary_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="enemies" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,11 +218,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_project/pygame" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day11/binary_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_project/pygame/enemies.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -245,7 +252,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="regular_expression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="myplane" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="100day" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,11 +260,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Day12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_project/pygame" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day12/regular_expression.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_project/pygame/myplane.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -290,10 +297,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.enemies" />
+        <item itemvalue="Python.myplane" />
         <item itemvalue="Python.Campaign contributions" />
         <item itemvalue="Python.regular_expression2" />
-        <item itemvalue="Python.regular_expression" />
-        <item itemvalue="Python.binary_file" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +330,7 @@
     <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.13705234" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.498" visible="true" weight="0.13705234" />
       <window_info id="Structure" order="1" sideWeight="0.502" side_tool="true" weight="0.18112947" />
       <window_info id="Favorites" order="2" sideWeight="0.502" side_tool="true" weight="0.18112947" />
       <window_info anchor="bottom" id="Version Control" order="0" weight="0.3297587" />
@@ -344,14 +351,7 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../Python-100-Days-master/Day01-15/Day08/面向对象编程基础.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Python-100-Days-master/Day01-15/Day08/面向对象编程基础.md" />
     <entry file="file://$PROJECT_DIR$/Day8/student.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -530,16 +530,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_project/Pandas/Campaign contributions/Campaign contributions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="26" selection-start-line="26" selection-end-line="30" />
-          <folding>
-            <element signature="e#189#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/train_project/Pandas/Campaign contributions/Campaign contributions.py" />
     <entry file="file://C:/Python35-32/Lib/site-packages/pygame/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -561,16 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../plane/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="168" column="34" lean-forward="true" selection-start-line="168" selection-start-column="34" selection-end-line="168" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-1781124807/pygame/display.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -578,10 +559,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train_project/pygame/main.py">
+    <entry file="file://$PROJECT_DIR$/../../../plane/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        <state relative-caret-position="-538">
+          <caret line="398" column="16" selection-start-line="398" selection-start-column="12" selection-end-line="398" selection-end-column="16" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -590,15 +571,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../plane/myplane.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="318">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train_project/pygame/myplane.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="450">
+          <caret line="23" column="75" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_project/pygame/enemies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="979">
+          <caret line="86" column="48" selection-start-line="86" selection-start-column="48" selection-end-line="86" selection-end-column="48" />
+          <folding>
+            <element signature="e#150#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train_project/pygame/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="133" lean-forward="true" selection-start-line="133" selection-end-line="133" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

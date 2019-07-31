@@ -2,6 +2,8 @@ import pygame
 import sys
 import traceback
 from pygame.locals import *
+import myplane
+import enemies
 
 pygame.init()
 # pygame module for loading and playing sounds
@@ -13,6 +15,8 @@ screen = pygame.display.set_mode(bg_size)
 # Set the current window caption
 pygame.display.set_caption("飞机大战")
 
+# convert:
+# 修改图像（Surface 对象）的像素格式
 background = pygame.image.load("images/background.png").convert()
 
 # 载入游戏音乐
@@ -41,14 +45,55 @@ enemy3_down_sound.set_volume(0.5)
 me_down_sound = pygame.mixer.Sound("sound/me_down.wav")
 me_down_sound.set_volume(0.2)
 
+def add_small_enemies(group1, group2, num):
+    for i in range(num):
+        e1 = enemies.SmallEnemy(bg_size)
+        group1.add(e1)
+        group2.add(e1)
+
+def add_mid_enemies(group1, group2, num):
+    for i in range(num):
+        e1 = enemies.MidEnemy(bg_size)
+        group1.add(e1)
+        group2.add(e1)
+
+def add_big_enemies(group1, group2, num):
+    for i in range(num):
+        e1 = enemies.BigEnemy(bg_size)
+        group1.add(e1)
+        group2.add(e1)
+
 
 def main():
     #  If the loops is -1 then the music will repeat indefinitely.
     pygame.mixer.music.play(-1)
 
+    # 生成我方飞机
+    me = myplane.Myplane(bg_size)
+
+    # 生成敌机
+    enemies = pygame.sprite.Group()
+    # 生成敌方小飞机
+    mid_enemies = pygame.sprite.Group()
+    add_mid_enemies(mid_enemies, enemies, 15)
+
+    # 生成敌方中飞机
+    small_enemies = pygame.sprite.Group()
+    add_small_enemies(small_enemies, enemies, 5)
+
+    # 生成敌方大飞机
+    big_enemies = pygame.sprite.Group()
+    add_big_enemies(big_enemies, enemies, 1)
+
+
     # an object to track time
     clock = pygame.time.Clock()
 
+    # 用于切换图片
+    switch_image = True
+
+    # 用于延迟
+    delay = 100
     running = True
 
     while running:
@@ -58,7 +103,54 @@ def main():
                 pygame.quit()
                 sys.exit()
 
+        # 检测用户的键盘操作
+        key_press = pygame.key.get_pressed()
+        if key_press[K_w] or key_press[K_UP]:
+            me.moveUp()
+        if key_press[K_s] or key_press[K_DOWN]:
+            me.moveDown()
+        if key_press[K_a] or key_press[K_LEFT]:
+            me.moveLeft()
+        if key_press[K_d] or key_press[K_RIGHT]:
+            me.moveRight()
+
         screen.blit(background, (0,0))
+
+        # 绘制大型敌机(是大型敌机在最里面，小飞机在最外面)
+        for each in big_enemies:
+            each.move()
+            if switch_image:
+                screen.blit(each.image1, each.rect)
+            else:
+                screen.blit(each.image2, each.rect)
+        # 即将出现在画面中，播放音效
+        if each.rect.bottom > -50:
+            enemy3_fly_sound.play()
+
+        # 绘制中型敌机
+        for each in mid_enemies:
+            each.move()
+            screen.blit(each.image, each.rect)
+
+        # 绘制小型敌机
+        for each in small_enemies:
+            each.move()
+            screen.blit(each.image, each.rect)
+
+
+        # 绘制我方飞机
+
+        if switch_image:
+            screen.blit(me.image1, me.rect)
+        else:
+            screen.blit(me.image2, me.rect)
+
+        # 在循环内不断切换,5帧切换一次
+        if not(delay % 5):
+            switch_image = not switch_image
+        delay -= 1
+        if not delay:
+            delay = 100
 
         pygame.display.flip()
 
