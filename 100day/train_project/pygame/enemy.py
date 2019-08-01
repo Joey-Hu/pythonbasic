@@ -54,10 +54,14 @@ class SmallEnemy(pygame.sprite.Sprite):
 
 
 class MidEnemy(pygame.sprite.Sprite):
+    energy = 8
+
     def __init__(self, bg_size):
         pygame.sprite.Sprite.__init__(self)
 
         self.image = pygame.image.load("./images/enemy2.png").convert_alpha()
+
+        self.hit_image = pygame.image.load("./images/enemy2_hit.png").convert_alpha()
 
         self.destroy_image = []
         self.destroy_image.extend([\
@@ -70,6 +74,10 @@ class MidEnemy(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.width, self.height = bg_size[0], bg_size[1]
         self.speed = 1
+
+        self.energy = MidEnemy.energy
+
+        self.hit = False
 
         self.active = True
 
@@ -88,18 +96,24 @@ class MidEnemy(pygame.sprite.Sprite):
 
     def reset(self):
         self.active = True
+        self.energy = MidEnemy.energy
         self.rect.left, self.rect.top = \
             randint(0, self.width - self.rect.width), \
             randint(-10 * self.height, -self.height)
 
 
 class BigEnemy(pygame.sprite.Sprite):
+    energy = 20
+
     def __init__(self, bg_size):
         pygame.sprite.Sprite.__init__(self)
 
         # 大型敌机存在飞行特效
         self.image1 = pygame.image.load("./images/enemy3_n1.png").convert_alpha()
         self.image2 = pygame.image.load("./images/enemy3_n2.png").convert_alpha()
+
+        self.hit_image = pygame.image.load("./images/enemy3_hit.png").convert_alpha()
+
 
         self.destroy_image = []
         self.destroy_image.extend([ \
@@ -114,6 +128,9 @@ class BigEnemy(pygame.sprite.Sprite):
         self.rect = self.image1.get_rect()
         self.width, self.height = bg_size[0], bg_size[1]
         self.speed = 1
+        self.energy = BigEnemy.energy
+
+        self.hit = False
 
         self.active = True
 
@@ -132,6 +149,7 @@ class BigEnemy(pygame.sprite.Sprite):
 
     def reset(self):
         self.active = True
+        self.energy = BigEnemy.energy
         self.rect.left, self.rect.top = \
             randint(0, self.width - self.rect.width), \
             randint(-13 * self.height, -5 * self.height)
