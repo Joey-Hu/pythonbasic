@@ -43,6 +43,9 @@ class Myplane(pygame.sprite.Sprite):
 
         self.active = True
 
+        # 无敌属性
+        self.invincible = False
+
         # 返回图片非透明部分，用于碰撞检测
         self.mask = pygame.mask.from_surface(self.image1)
 
@@ -70,6 +73,14 @@ class Myplane(pygame.sprite.Sprite):
             self.rect.right += self.speed
         else:
             self.rect.right = self.width
+
+    # 复活
+    def reset(self):
+        self.rect.left, self.rect.top = \
+            (self.width - self.rect.width) // 2, \
+            self.height - self.rect.height - 60
+        self.active = True
+        self.invincible = True
 
 
 

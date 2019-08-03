@@ -140,11 +140,26 @@ def main():
     SUPPLY_TIME = USEREVENT
     pygame.time.set_timer(SUPPLY_TIME, 30 * 1000)
 
+    # 游戏结束画面
+    gameover_font = pygame.font.Font("font/font.ttf", 48)
+    again_image = pygame.image.load("images/again.png").convert_alpha()
+    again_rect = again_image.get_rect()
+    gameover_image = pygame.image.load("images/gameover.png").convert_alpha()
+    gameover_rect = gameover_image.get_rect()
+
     # 超级子弹定时器
     DOUBBLE_BULLET_TIME = USEREVENT + 1
 
+    # 无敌时间计时器
+    INVINCIBLE_TIME = USEREVENT + 2
+
     # 标志是否使用超级子弹
     is_doubble_bullet = False
+
+    # 生命数量
+    life_image = pygame.image.load("./images/life.png").convert_alpha()
+    life_rect = life_image.get_rect()
+    life_num = 3
 
     # 暂停设置
     paused = False
@@ -168,6 +183,9 @@ def main():
     # 用于延迟
     delay = 100
     running = True
+
+    # 用于限制重复打开存取记录
+    recorded = False
 
     while running:
         # get events from the queue
@@ -224,6 +242,11 @@ def main():
                 is_doubble_bullet = False
                 pygame.time.set_timer(DOUBBLE_BULLET_TIME, 0)
 
+            elif event.type == INVINCIBLE_TIME:
+                me.invincible = False
+                # 结束无敌时间计时器
+                pygame.time.set_timer(INVINCIBLE_TIME, 0)
+
         # 根据用户的得分增加难度
         if level == 1 and score > 50000:
             level = 2
@@ -270,7 +293,7 @@ def main():
 
         screen.blit(background, (0, 0))
 
-        if not paused:
+        if life_num > 0 and not paused:
             # 检测用户的键盘操作
             key_press = pygame.key.get_pressed()
             if key_press[K_w] or key_press[K_UP]:
@@ -443,8 +466,8 @@ def main():
 
             # 检测我方飞机是否碰撞
             enemy_down = pygame.sprite.spritecollide(me, enemies, False, pygame.sprite.collide_mask)
-            if enemy_down:
-                # me.active = False
+            if enemy_down and not me.invincible:
+                me.active = False
                 for e in enemy_down:
                     e.active = False
 
@@ -462,9 +485,10 @@ def main():
                     screen.blit(me.destroy_image[me_destroy_index], me.rect)
                     me_destroy_index = (me_destroy_index+1) % 4
                     if me_destroy_index == 0:
-                        # 游戏结束
-                        print("GAME OVER!")
-                        running = False
+                        life_num -= 1
+                        me.reset()
+                        # 调用无敌时间计时器
+                        pygame.time.set_timer(INVINCIBLE_TIME, 3 * 1000)
 
             # 绘制全屏炸弹数量
             bomb_text = bomb_font.render("x %d" % bomb_num, True, WHITE)
@@ -472,10 +496,66 @@ def main():
             screen.blit(bomb_image, (10, height - 10 - bomb_rect.height))
             screen.blit(bomb_text, (20 + bomb_rect.width, height - 5 - bomb_rect.height))
 
+            # 绘制生命数量
+            if life_num > 0:
+                for i in range(life_num):
+                    screen.blit(life_image,\
+                                (width - 10 - (i+1) * life_rect.width, \
+                                 height - 10 - life_rect.height))
 
-        # 绘制分数
-        score_text = score_font.render("Score : %s" %str(score), True, WHITE)
-        screen.blit(score_text, (10,5))
+            # 绘制分数
+            score_text = score_font.render("Score : %s" % str(score), True, WHITE)
+            screen.blit(score_text, (10, 5))
+
+
+        # 绘制游戏结束画面
+        elif life_num == 0:
+            # 背景音乐停止
+            pygame.mixer.music.stop()
+            # 停止音效
+            pygame.mixer.stop()
+
+            # 停止发放补给
+            pygame.time.set_timer(SUPPLY_TIME, 0)
+
+            if not recorded:
+                recorded = True
+                # 读取历史最高得分
+                with open("D:\\Desktop\\python\\python_basics\\100day\\train_project\\pygame\\record.txt", "r") as f:
+                    record_score = int(f.read())
+
+                # 如果玩家分数高于历史最高峰，则存档
+                if score > record_score:
+                    with open("D:\\Desktop\\python\\python_basics\\100day\\train_project\\pygame\\record.txt", "w") as f:
+                        f.write(str(score))
+
+            # 绘制结束画面
+            record_score_text = score_font.render("Best: %d" % record_score, True, WHITE)
+            screen.blit(record_score_text, (50, 50))
+
+            gameover_text1 = gameover_font.render("Your Score: ", True, WHITE)
+            gameover_text1_rect = gameover_text1.get_rect()
+            gameover_text1_rect.left, gameover_text1_rect.top = \
+                (width - gameover_text1_rect.width) // 2, height // 2
+            screen.blit(gameover_text1, gameover_text1_rect)
+
+            gameover_text2 = gameover_font.render(str(score), True, WHITE)
+            gameover_text2_rect = gameover_text2.get_rect()
+            gameover_text2_rect.left, gameover_text2_rect.top = \
+                (width - gameover_text2_rect.width) // 2, \
+                gameover_text1_rect.bottom + 10
+            screen.blit(gameover_text2, gameover_text2_rect)
+
+            again_rect.left, again_rect.top = \
+                (width - again_rect.width) // 2, \
+                gameover_text2_rect.bottom + 50
+            screen.blit(again_image, again_rect)
+
+            gameover_rect.left, gameover_rect.top = \
+                (width - again_rect.width) // 2, \
+                again_rect.bottom + 10
+            screen.blit(gameover_image, gameover_rect)
+
 
         # 绘制暂停按钮
         screen.blit(pause_image,pause_rect)
