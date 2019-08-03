@@ -476,7 +476,7 @@ def main():
                 for e in enemy_down:
                     e.active = False
 
-            # 绘制我方飞机
+            # 绘制我方飞机(动态效果)
             if me.active:
                 if switch_image:
                     screen.blit(me.image1, me.rect)
