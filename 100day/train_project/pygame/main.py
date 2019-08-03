@@ -85,6 +85,11 @@ def main():
     #  If the loops is -1 then the music will repeat indefinitely.
     pygame.mixer.music.play(-1)
 
+    # create an object to help track time.
+    # The clock also provides several functions to help control a game's framerate.
+    clock = pygame.time.Clock()
+
+
     # 生成我方飞机
     me = myplane.Myplane(bg_size)
 
@@ -117,9 +122,6 @@ def main():
     for i in range(BULLET_NUM2//2):
         bullet2.append(bullet.Bullet2((me.rect.centerx-33, me.rect.centery)))
         bullet2.append(bullet.Bullet2((me.rect.centerx+30, me.rect.centery)))
-
-    # an object to track time
-    clock = pygame.time.Clock()
 
     # 得分
     score = 0
@@ -291,6 +293,9 @@ def main():
             # 提升中型敌机速度
             inc_speed(mid_enemies, 1)
 
+        # 绘制背景图片
+        # blit: draw one image onto another
+        # surface.blit(source, dest, area=None, special_flags=0) -> Rect
         screen.blit(background, (0, 0))
 
         if life_num > 0 and not paused:
@@ -567,6 +572,7 @@ def main():
         if not delay:
             delay = 100
 
+        # 更新整个待显示的 Surface 对象到屏幕上
         pygame.display.flip()
 
         clock.tick(60)
